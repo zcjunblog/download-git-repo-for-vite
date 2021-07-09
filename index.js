@@ -2,7 +2,6 @@ var downloadUrl = require('download')
 var gitclone = require('git-clone')
 var rm = require('rimraf').sync
 
-
 /**
  * Download `repo` to `dest` and callback `fn(err)`.
  *
@@ -12,7 +11,7 @@ var rm = require('rimraf').sync
  * @param {Function} fn
  */
 
-export function download (repo, dest, opts, fn) {
+function download (repo, dest, opts, fn) {
   if (typeof opts === 'function') {
     fn = opts
     opts = null
@@ -160,3 +159,5 @@ function getUrl (repo, clone) {
 
   return url
 }
+
+module.exports = download
