@@ -1,4 +1,4 @@
-# download-git-repo-for-vite
+# git-repo-down-for-vite
 
 从node下载并提取一个git库(GitHub, GitLab, Bitbucket)。
 
@@ -11,7 +11,7 @@
 
 
 ## 引入
-``import {download} from "git-repo-down-for-vite";``
+``const download = require('git-repo-down-for-vite')``
 
 ### 使用
 
