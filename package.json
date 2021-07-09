@@ -1,0 +1,25 @@
+{
+  "name": "download-git-repo-for-vite",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.",
+  "keywords": [
+    "download",
+    "github",
+    "gitlab",
+    "bitbucket",
+    "repo",
+    "repository",
+    "tar",
+    "extract",
+    "tarball"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "download": "^8.0.0",
+    "git-clone": "^0.1.0",
+    "rimraf": "^3.0.0"
+  }
+}
