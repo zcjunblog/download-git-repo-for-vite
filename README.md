@@ -6,12 +6,12 @@
 
 ## 安装
 
-    $ npm install download-git-repo-for-vite
+    $ npm install git-repo-down-for-vite
 
 
 
 ## 引入
-``import {download} from "download-git-repo-for-vite";``
+``import {download} from "git-repo-down-for-vite";``
 
 ### 使用
 
